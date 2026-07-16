@@ -1,4 +1,4 @@
-# React Learning Journey — Full Stack Java Developer Path 🚀
+# React Learning Journey  🚀
 
 [![Progress](https://img.shields.io/badge/status-in--progress-blue)]()
 [![Stack](https://img.shields.io/badge/stack-Java%20%7C%20Spring%20Boot%20%7C%20React-brightgreen)]()
