@@ -1,77 +1,128 @@
-# React Learning Journey  🚀
+# ⚛️ React Learning Journey
 
-[![Progress](https://img.shields.io/badge/status-in--progress-blue)]()
-[![Stack](https://img.shields.io/badge/stack-Java%20%7C%20Spring%20Boot%20%7C%20React-brightgreen)]()
+> React 18 concepts learned from scratch — Components, Hooks, Router, API Integration, and more.
 
-## 👋 About This Repository
-
-This repository tracks my structured, day-by-day journey learning **React.js** — a core skill in my transition to becoming a **Full Stack Java Developer**.
-
-Rather than jumping randomly between tutorials, I'm following a disciplined learning path, documenting concepts as I master them, and building toward real, deployable full stack projects that combine **React on the frontend** with **Java (Spring Boot) on the backend**.
-
-## 🎯 Career Goal
-
-To become a **Full Stack Java Developer** capable of independently designing, building, and deploying production-ready web applications — from REST APIs in Spring Boot to responsive, component-driven UIs in React.
-
-## 🧠 What I'm Learning & Why
-
-| Skill Area | Purpose |
-|---|---|
-| React.js (JSX, Components, Hooks) | Build dynamic, reusable UI |
-| State & Props Management | Handle application data flow |
-| React Router | Multi-page SPA navigation |
-| REST API Integration | Connect React frontend to Java backend |
-| Java + Spring Boot *(parallel track)* | Backend logic, REST APIs, persistence |
-
-## 📅 Learning Log
-
-| Day | Date | Topics Covered | Link |
-|---|---|---|---|
-| Day 1 | This week | JSX Basics, Component Fundamentals | [`01-jsx-components`](./react-learning/01-jsx-components) |
-
-*Updated regularly as new concepts are completed.*
-
-## 🗺️ Roadmap
-
-- [x] JSX Basics & Components
-- [ ] Props & State Management
-- [ ] Event Handling & Conditional Rendering
-- [ ] Lists, Keys & Forms
-- [ ] React Hooks (useState, useEffect, useContext)
-- [ ] React Router (SPA Navigation)
-- [ ] Consuming REST APIs (Axios/Fetch)
-- [ ] State Management (Context API / Redux)
-- [ ] **Capstone:** Full Stack App — React + Spring Boot + MySQL
-
-## 🛠️ Tech Stack
-
-**Frontend:** React.js, JavaScript (ES6+), HTML5, CSS3, Vite
-**Backend (in parallel):** Java, Spring Boot, REST APIs
-**Database:** MySQL / PostgreSQL
-**Tools:** Git, GitHub, VS Code
-
-## 🚀 Running a Day's Project
-
-```bash
-git clone https://github.com/sumiran3031/React-Learning.git
-cd react-learning/01-jsx-components
-npm install
-npm run dev
-```
-
-## 📈 Why This Matters
-
-Employers looking for full stack developers value candidates who can:
-- Learn independently and document progress transparently
-- Understand both frontend and backend fundamentals
-- Ship real, working code — not just tutorials
-
-This repository is public evidence of that process — updated consistently as I progress toward full stack proficiency.
-
-## 📬 Connect With Me
-
-Feel free to explore my other repositories or reach out — I'm actively building my portfolio as I work toward a Full Stack Java Developer role.
+No bootcamp. No shortcuts. Just consistent daily practice — building real projects every day.
 
 ---
 
-⭐ *If you're on a similar journey, feel free to star this repo and follow along.*
+## 🗓️ Progress
+
+| Day | Topic | Status |
+|-----|-------|--------|
+| 1  | JSX + Components + Props                        | ✅ |
+| 2  | State — useState Hook                            | 🔄 |
+| 3  | Event Handling + Forms                           | ⏳ |
+| 4  | useEffect Hook                                   | ⏳ |
+| 5  | Conditional Rendering + Lists                    | ⏳ |
+| 6  | useRef + useMemo + useCallback                   | ⏳ |
+| 7  | useContext — Global State                        | ⏳ |
+| 8  | Custom Hooks                                     | ⏳ |
+| 9  | React Router — Navigation                        | ⏳ |
+| 10 | Protected Routes + Auth Flow                     | ⏳ |
+| 11 | Axios — REST API Calls                           | ⏳ |
+| 12 | Loading States + Error Handling                  | ⏳ |
+| 13 | Forms — React Hook Form                          | ⏳ |
+| 14 | Tailwind CSS + Styling                           | ⏳ |
+| 15 | Mini Project — Todo App                          | ⏳ |
+| 16 | Redux Toolkit — Global State Management          | ⏳ |
+| 17 | React Query — Data Fetching                      | ⏳ |
+| 18 | Charts — Recharts / Chart.js                     | ⏳ |
+| 19 | File Upload + Preview                            | ⏳ |
+| 20 | Dark Mode + Theming                              | ⏳ |
+| 21 | Mini Project — Weather App                       | ⏳ |
+| 22 | Mini Project — Blog UI                           | ⏳ |
+| 23 | Mini Project — E-Commerce UI                     | ⏳ |
+| 24 | React + Spring Boot Integration                  | ⏳ |
+| 25 | Final Project — Full Stack Dashboard             | ⏳ |
+
+---
+
+## 🛠️ Tech Stack
+
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
+![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-3.x-38B2AC?logo=tailwindcss)
+![Axios](https://img.shields.io/badge/Axios-1.x-5A29E4?logo=axios)
+
+---
+
+## 📁 Project Structure
+
+```
+react-learning/
+├── 01-jsx-components/        ← Day 1
+├── 02-usestate/              ← Day 2
+├── 03-events-forms/          ← Day 3
+├── 04-useeffect/             ← Day 4
+├── 05-lists-conditional/     ← Day 5
+├── ...
+└── 25-final-project/         ← Day 25
+```
+
+Each folder is an independent Vite + React project.
+
+---
+
+## 🚀 How to Run Any Project
+
+```bash
+# Go to any day folder
+cd 01-jsx-components
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Open in browser
+# http://localhost:5173
+```
+
+---
+
+## 📚 What I'm Learning
+
+```
+✅ JSX syntax and rules
+✅ Functional Components
+✅ Props — passing data between components
+✅ useState — managing local state
+✅ useEffect — side effects and API calls
+✅ useRef, useMemo, useCallback
+✅ useContext — global state without Redux
+✅ Custom Hooks — reusable logic
+✅ React Router — client-side navigation
+✅ Axios — REST API integration
+✅ Redux Toolkit — global state management
+✅ Tailwind CSS — utility-first styling
+✅ React Hook Form — form validation
+✅ Charts — data visualization
+✅ Spring Boot integration
+```
+
+---
+
+## 🔗 Related Repos
+
+- [java-fundamentals](https://github.com/sumiran3031/java-fundamentals) — Core Java, 125+ programs
+- [SpringBoot-Learning](https://github.com/sumiran3031/SpringBoot-Learning) — Spring Boot REST APIs
+- [LeetCode_Solutions](https://github.com/sumiran3031/LeetCode_Solutions) — Daily DSA practice
+- [Student-Grade-Tracker](https://github.com/sumiran3031/Student-Grade-Tracker) — Java console project
+- [Bank-System](https://github.com/sumiran3031/Bank-System) — Java console project
+
+---
+
+## 👩‍💻 About Me
+
+**Sumiran Paparkar** — Aspiring Full Stack Java + AI Developer | Building in Public
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sumiran--paparkar-0A66C2?logo=linkedin)](https://linkedin.com/in/sumiran-paparkar)
+[![GitHub](https://img.shields.io/badge/GitHub-sumiran3031-181717?logo=github)](https://github.com/sumiran3031)
+[![LeetCode](https://img.shields.io/badge/LeetCode-SumiranPaparkar-FFA116?logo=leetcode)](https://leetcode.com/u/SumiranPaparkar/)
+
+---
+
+⭐ **Building in public — one day at a time!** 💪
